@@ -1,0 +1,33 @@
+app_version: v2.2.0
+capabilities: []
+categories:
+- media
+changelog_url: https://github.com/Kometa-Team/Kometa/releases
+date_added: '2025-05-27'
+description: Kometa is a metadata, playlist and collection tool for the Plex ecosystem.
+home: https://kometa.wiki/
+host_mounts: []
+icon: https://media.sys.truenas.net/apps/kometa/icons/icon.svg
+keywords:
+- media
+- plex
+lib_version: 2.1.29
+lib_version_hash: 31f1b5ba35682ee20a3bc43a7d527451c75d409798cce8d01646704830ea92f0
+maintainers:
+- email: dev@ixsystems.com
+  name: truenas
+  url: https://www.truenas.com/
+name: kometa
+run_as_context:
+- description: Kometa runs as any non-root user.
+  gid: 568
+  group_name: kometa
+  uid: 568
+  user_name: kometa
+screenshots: []
+sources:
+- https://github.com/Kometa-Team/Kometa
+- https://hub.docker.com/r/kometateam/kometa
+title: Kometa
+train: community
+version: 1.0.0

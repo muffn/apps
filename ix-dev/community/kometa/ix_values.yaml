@@ -1,0 +1,9 @@
+images:
+  image:
+    repository: kometateam/kometa
+    tag: v2.2.0
+
+consts:
+  kometa_container_name: kometa
+  perms_container_name: permissions
+  data_path: /config
